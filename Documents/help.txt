@@ -1,0 +1,12 @@
+Don’t worry!
+
+Enter 1st four letter of Student along with birth year 
+
+Name-Prashanta Barik
+DOB- 09/06/1698
+
+UserName is : Prashanta
+Password is : PRAS1698
+
+for Further issue...?
+ please contact school authority associated with your account. 
