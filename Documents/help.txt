@@ -1,9 +1,11 @@
 Don’t worry!
 
-Enter 1st four letter of Student along with birth year 
+let your 
 
 Name-Prashanta Barik
 DOB- 09/06/1698
+
+then your 
 
 UserName is : Prashanta
 Password is : PRAS1698
