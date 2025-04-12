@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: pink;
+  color: #222;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1626885930974-4b69aa21bbf9?q=80&w=1046&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero_building {
+  background: url('https://plus.unsplash.com/premium_photo-1682148932578-5566a9808f48?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero_highway {
+  background: url('https://images.unsplash.com/photo-1503708928676-1cb796a0891e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero_portfolio {
+  background: url('https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1055&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  color: ;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #007f82;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005f60;
+}
+
+.section {
+  padding: 4rem 1.8rem;
+  max-width: 1000px;
+  margin: auto;
+  background: floralwhite;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #005f73;
+}
+
+.skills .skill {
+  margin-bottom: 1rem;
+}
+
+.skills label {
+  display: block;
+  margin-bottom: .orem;
+}
+
+.bar {
+  background: whitesmoke;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.bar div {
+  height: 100%;
+  background: #0a9390;
+  border-radius: 20px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  background: #f0fdfd;
+  border-left: 4px solid #0a9396;
+  border-radius: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #007f82;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #005f60;
+}
+
+footer {
+  background: #005f73;
+  color: white;
+  text-align: center;
+  padding: 1rem;
